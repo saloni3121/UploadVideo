@@ -73,6 +73,7 @@ function UploadVideo() {
     return (
         <React.Fragment>
             <Container spacing={'90%'} className={classes.root}>
+            <div style={{ fontSize: "30px", fontWeight: "bold", textAlign: 'center', marginTop: '-60px', marginBottom: '35px'}}> TG App </div>
                 <Grid container spacing={4}>
                     <Grid item md={4}>
                     <div className={classes.card}>
